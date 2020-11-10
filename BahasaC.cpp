@@ -9,9 +9,9 @@ main()
 {
 /*Menambahkan Variabel*/
 	int bil1,bil2,hasil,kuadrat;
-/*Menampilkan Judul
+/*Menampilkan Judul*/
 	printf("Menghitung Bilangan Pertama + Bilangan Kedua lalu hasilnya dikuadratkan \n" );
-/*Input/Masukan
+/*Input/Masukan*/
 	printf("Masukkan Bilangan Pertama : ");
 	scanf("%d",&bil1);
 	printf("Masukkan Bilangan Kedua : ");
@@ -19,7 +19,7 @@ main()
 /*Memnjumlahkan Bilangan*/
 	hasil=bil1 + bil2;
 	printf("Hasilnya penjumlahan adalah = %d \n",hasil);
-/*Mengkuadratkan
+/*Mengkuadratkan*/
 	kuadrat= pow(hasil,2);
 	printf("Hasil dari %d kuadrat adalah = %d",hasil,kuadrat);
 
